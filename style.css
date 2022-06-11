@@ -705,11 +705,6 @@ p {
 }
 
 h2 {
-    font-size: 22px;
-    line-height: 1.4em;
-}
-
-h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
