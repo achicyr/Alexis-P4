@@ -100,7 +100,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: #fff;
 }
 
 .d-bloc button:hover {
@@ -748,7 +748,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgb(86 70 22 / 53%);
     padding: 40px 40px 40px 40px;
 }
 
@@ -777,7 +777,7 @@ h4 {
 }
 
 .btn-atomic-tangerine:hover {
-    background: #CF4B0E!important;
+    background: #d97f55!important;
     color: #FFFFFF!important;
 }
 
@@ -1100,7 +1100,7 @@ p{
 }
 
 footer a {
-    color: #3e3e3e;
+    color: black!important;
 }
 
 #bloc-6 .tc-white{
@@ -1117,4 +1117,13 @@ footer a {
 
 .tc-white{
     color: #CF4B0E!important;
+}
+
+#bloc-5-cta .row{
+    width: fit-content;
+    background-color: rgb(86 70 22 / 53%);
+    padding: 40px 40px 40px 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
 }
