@@ -761,9 +761,7 @@ h4 {
     background-color: #FFFFFF;
 }
 
-.bgc-dark-slate-blue {
-    background-color: #364577;
-}
+
 
 .bgc-atomic-tangerine {
     background-color: #F3976C;
@@ -1054,7 +1052,7 @@ h4 {
 .textimg p {
     font-size: 22px;
     line-height: 25px;
-    color: #818181!important;
+    color: #646464!important;
 }
 
 .textimg--deux{
@@ -1093,4 +1091,22 @@ h4 {
 .paragraphe{
     font-size: 22px;
     line-height: 1.4em; 
+}
+
+/* 6 */
+
+p{
+    font-size:14px;
+}
+
+footer a {
+    color: #3e3e3e;
+}
+
+#bloc-6 .tc-white{
+    color: #575757!important;
+}
+
+#bloc-6 .tight-width-whitespace{
+    margin:0;
 }
