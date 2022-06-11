@@ -1040,3 +1040,58 @@ h4 {
         text-align: center;
     }
 }
+
+
+/* RECTIFICATIONS DES PROBLEMES */
+
+/* 1 */
+
+.textimg{
+    width: 650px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textimg p {
+    font-size: 22px;
+    line-height: 25px;
+    color: #818181!important;
+}
+
+.textimg--deux{
+    margin-left:0;
+}
+
+.textimg--deux em{
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+.textimg--trois p{
+    width:480px;
+}
+
+@media (max-width: 767px) {
+    .textimg{
+        width:380px;
+
+    }
+    .textimg p{
+        font-size:18px;
+        line-height:20px;
+    }
+}
+
+@media (max-width: 400px) {
+    .textimg{
+        width:280px;
+    }
+}
+
+
+
