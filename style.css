@@ -283,6 +283,10 @@ a:hover {
     padding-left: 0;
 }
 
+#bloc-1-hero .tight-width-whitespace{
+    background-color: rgb(86 70 22 / 83%);
+    padding: 2em;
+}
 #bloc-1-hero h1 {
     font-size: 32px;
 }
@@ -749,7 +753,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgb(86 70 22 / 53%);
+    background-color: rgb(86 70 22 / 83%);
     padding: 40px 40px 40px 40px;
 }
 
@@ -1112,7 +1116,7 @@ footer a {
 
 #bloc-5-cta .row{
     width: fit-content;
-    background-color: rgb(86 70 22 / 53%);
+    background-color: rgb(86 70 22 / 83%);
     padding: 40px 40px 40px 40px;
     left: 50%;
     transform: translateX(-50%);
