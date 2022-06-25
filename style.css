@@ -706,6 +706,12 @@ p {
 }
 
 h2 {
+    font-size: 22px;
+    line-height: 25px;
+    color: #646464!important;
+}
+
+h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
@@ -749,13 +755,13 @@ h4 {
 }
 
 .black-background {
-    background-color: rgb(86 70 22 / 53%);
-    padding: 40px 40px 40px 40px;
+    background-color: #EE500750;
+    padding: 40px 40px 40px 40px; 
 }
 
 .bold-link {
     font-weight: 900;
-    text-decoration: underline!important;
+    text-decoration: underline!important; 
 }
 
 .bgc-white {
@@ -765,21 +771,20 @@ h4 {
 
 
 .bgc-atomic-tangerine {
-    background-color: #CF4B0E;
-}
-
-.tc-white {
-    color: #CF4B0E!important;
+    background-color: #B22727;
 }
 
 .btn-atomic-tangerine {
-    background: #CF4B0E;
+    background: #B22727;
     color: #FFFFFF!important;
+    border: solid 2px #B22727;
+    box-sizing: border-box;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #d97f55!important;
-    color: #FFFFFF!important;
+    background: white!important;
+    color: #B22727!important;
+    border: solid 2px #B22727;
 }
 
 .ltc-white {
@@ -791,16 +796,16 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #CF4B0E!important;
+    color: #B22727!important;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #CF4B0E!important;
+    color: #B2272775!important;
 }
 
 .icon-dark-slate-blue {
-    color: #364577!important;
-    border-color: #364577!important;
+    color: #006E7F!important;
+    border-color: #006E7F!important;
 }
 
 .bg-dots-bg {
@@ -812,7 +817,7 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/agence-la-panthere.jpg");
+    background: url("img/agence-la-panthere.jpg") white;
 }
 
 .bg-presentation {
@@ -1103,16 +1108,15 @@ footer a {
 }
 
 .btn-atomic-tangerine{
-    background: #CF4B0E;
+    background: #B22727;
 }
 
 .tc-white{
-    color: #CF4B0E!important;
+    color: #fff!important;
 }
 
 #bloc-5-cta .row{
     width: fit-content;
-    background-color: rgb(86 70 22 / 53%);
     padding: 40px 40px 40px 40px;
     left: 50%;
     transform: translateX(-50%);
@@ -1128,3 +1132,8 @@ footer a {
     margin-top: 40px;
     font-size: 16px;
 }
+
+#map {
+    height: 100%;
+  }
+  
