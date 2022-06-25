@@ -7,6 +7,11 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+a:focus{
+    border: 2px solid #000;
+}
+
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -784,7 +789,7 @@ h4 {
 .btn-atomic-tangerine:hover {
     background: white!important;
     color: #B22727!important;
-    border: solid 2px #B22727;
+    border: solid 2px #fff;
 }
 
 .ltc-white {
@@ -817,7 +822,7 @@ h4 {
 }
 
 .bg-banniere {
-    background: url("img/agence-la-panthere.jpg") white;
+    background: url("img/agence-la-panthere.jpg") #B22727;
 }
 
 .bg-presentation {
